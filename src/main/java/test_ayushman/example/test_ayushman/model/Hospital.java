@@ -1,10 +1,5 @@
 package test_ayushman.example.test_ayushman.model;
 
-
-
-
-
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.ArrayList;
@@ -14,6 +9,7 @@ import java.util.List;
 public class Hospital {
 
     @Id
+    private String id;      // added as per ChatGPT instructions
     private String registrationId;
     private String password;
     private String name;

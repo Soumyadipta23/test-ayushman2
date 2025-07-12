@@ -14,6 +14,7 @@ import java.util.List;
 @Document(collection = "doctors")
 public class Doctor {
     @Id
+    private String id;
     private String registrationId;
     private String password;
     private String name;

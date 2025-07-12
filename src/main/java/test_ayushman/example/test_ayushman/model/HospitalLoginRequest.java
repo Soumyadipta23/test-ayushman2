@@ -1,7 +1,5 @@
 package test_ayushman.example.test_ayushman.model;
 
-
-
 public class HospitalLoginRequest {
     private String registrationId;
     private String password;
