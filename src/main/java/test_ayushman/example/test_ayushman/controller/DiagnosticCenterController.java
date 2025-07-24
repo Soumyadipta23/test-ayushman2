@@ -14,7 +14,7 @@ import test_ayushman.example.test_ayushman.repository.PatientRepository;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/diagnostic")
+@RequestMapping("/api/diagnostic-one")
 public class DiagnosticCenterController {
 
     @Autowired

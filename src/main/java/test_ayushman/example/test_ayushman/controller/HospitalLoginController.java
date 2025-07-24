@@ -10,6 +10,7 @@ import test_ayushman.example.test_ayushman.model.Hospital;
 import test_ayushman.example.test_ayushman.model.HospitalLoginRequest;
 import test_ayushman.example.test_ayushman.repository.HospitalRepository;
 
+@CrossOrigin(origins = "http://localhost:5173") // after chatgpt
 @RestController
 @RequestMapping("/api/hospital")
 public class HospitalLoginController {
